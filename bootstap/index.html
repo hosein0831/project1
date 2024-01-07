@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورزش و رژیم </title>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+  
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./style.css">
+    
+<style>
+    body{
+        font-family: sahel;
+    }
+</style>
+</head>
+<body>
+
+    <div class="sticky-top  p-2 shadow bgc-nav" style="--bs-bg-opacity:0.95">
+        <nav class="navbar navbar-expand-lg  container" data-bs-theme="light">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand fs-4 " href="#">project</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> ورزش و رژیم</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                               data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                محصولات
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">مکمل</a></li>
+                                <li><a class="dropdown-item" href="#">برنامه غذایی</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./AboutUs.html">درباره ما</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-lg-end " style="width: 185px; ">
+
+                        <div class="text-center text-md-start">
+                            
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                شروع رژیم
+                              </button>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+     
+    <a href="#" class="bg-success text-black d-flex rounded-circle justify-content-center align-items-center position-fixed opacity-75" style="width: 54px; height: 54px; right: 10px; bottom: 10px;" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+          </svg>
+    </a>
+
+
+                <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">آخرین اخبار </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="">
+                <div class="mb-3">
+                    <label for="contactfullname" class="form-label">نام </label>
+                    <input type="text " class="form-control" id="contactfullname" placeholder="مثلا : محمد حسین">
+                  </div>
+                <div class="mb-3">
+                    <label for="contactemail" class="form-label">پست الکترونیکی</label>
+                    <input type="email" class="form-control" id="contactemail" placeholder="name@example.com">
+                  </div>
+
+                  <button class="btn btn-success" style="margin-bottom: 18px;"> عضویت</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+
+    <!-- header -->
+    <div class="py-4 bg-header">
+        <section class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-4  mb-4">رژیم غذایی مناسب</h2>
+                    <p class="lead text-muted mb-4">یک رژیم غذایی سالم باید ترکیبی از مواد مغذی از جمله پروتئین، کربوهیدرات، چربی‌ها، ویتامین‌ها و مواد معدنی بوده و مصرف فیبر بالا، آب کافی و محدودیت مصرف مواد شیرین‌ و چربی‌های اشباع در آن لحاظ شده باشد. هدف چنین رژیمی «حفظ و بهبود سلامتی و متعادل شدن وزن بدن» است. </p>
+                    
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        شروع رژیم
+                      </button>
+
+
+                </div>
+                <div class="col-md-6">
+                    <img src="./photo/food.jpg" class="img-fluid shadow  rounded-1" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="py4 " style="background-color: #95ee88; ">
+        <section class="container ">
+            <h2 class="display-5 text-center mt-5">مهم ترین نکات رژیم غذایی</h2>
+            <p class="text-center lead text-muted mb-5"></p>
+            <div class="row g-4 pb-5    ">
+                <div class="col-xl-4 col-md-6">
+
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+        
+                            <h5 class="card-title mb-2 ">مصرف زیاد آب جهت برنامه غذایی سالم</h5>
+                            <p class="card-text lead text-muted"> امروزه همگی متخصصان تغذیه در سراسر جهان بر مصرف کافی آب و مایعات در طول روز تاکید زیادی دارند؛ چرا که وجود مقدار آب کافی برای عملکرد صحیح کلیه­‌ها الزامی می­‌باشد. با توجه به تحقیقات انجام شده مصرف آب موجب کاهش اشتها و سوزاندن بیشتر کالری توسط بدن می‌­شود.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-md-6">
+
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+        
+                            <h5 class="card-title mb-2" style="padding: 14px;">کاهش مصرف فست فود جهت تغذیه سالم</h5>
+                            <p class="card-text lead text-muted">یکی دیگر از نکات مهم تغذیه سالم، کاهش مصرف فست فود و غذاهای آماده می­‌باشد. سعی کنید بیشتر اوقات به جای غذا خوردن در بیرون، داخل خانه آشپزی کنید؛ چرا که به این شیوه از سالم بودن ماده غذایی مطمئن می‌­شوید و کمتر با خطر چاقی روبرو می­‌شوید.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-md-6">
+
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+        
+                            <h5 class="card-title mb-2"style="padding: 14px;">مصرف مکمل­‌های ویتامین D و امگا </h5>
+                            <p class="card-text lead text-muted" style="padding-bottom: 58px;">از دیگر نکات مهم برای داشتن تغذیه سالم، مصرف مکمل­‌های ویتامین D و امگا ۳ می­‌باشد. بیشتر از 90 درصد مردم ایران دچار کمبود ویتامین D و کلسیم می‌­باشند، بنابراین حتما روزانه مکمل‌­های آن­ها را مصرف کنید.
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-md-6">
+
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+        
+                            <h5 class="card-title mb-2">افزایش مصرف پروتئین در رژیم غذایی سالم</h5>
+                            <p class="card-text lead text-muted">برای داشتن تغذیه سالم همیشه سعی کنید که مصرف پروتئین را افزایش دهید و به همان میزان مصرف چربی و کربوهیدرات را کاهش دهید. مصرف پروتئین باعث حفظ توده عضلانی و افزایش سوزاندن کالری می­‌شود.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-md-6">
+
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+        
+                            <h5 class="card-title mb-2">مصرف میوه به صورت روزانه</h5>
+                            <p class="card-text lead text-muted" style="padding-bottom: 53px;">یکی از مهم‌ترین نکات تغذیه سالم، مصرف چند واحد میوه به صورت روزانه است. میوه سرشار از انواع ویتامین‌­های مختلف مانند ویتامین e بوده و سیستم ایمنی بدن شما را تقویت می­‌کند.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-md-6">
+
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+        
+                            <h5 class="card-title mb-2">داشتن خواب کافی و مناسب</h5>
+                            <p class="card-text lead text-muted" style="padding-bottom: 22px;">به شما توصیه می­‌کنیم که برای داشتن تغذیه سالم حتما سعی کنید که خواب کافی و مناسب داشته باشید. کم­‌خوابی باعث مختل شدن اشتهای افراد می­‌شود و آن­ها را در معرض ابتلا به بیماری‌­های مختلف قرار می‌­دهد.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="py-4 bg-header">
+        <section class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-4  mb-4"><span class="text-success">تمرین</span> <br>لازمه زندگی سالم </h2>
+                    <p class="lead text-muted mb-4">برنامه تمرینی خوب باید شامل تمرینات میان‌تنه، انعطاف‌پذیری، تحرک‌پذیری، قدرتی و خودرهاسازی مایوفاشیال (SMR) باشد یک برنامه تمرینی خوب و برنامه‌ای که برای سلامت بلندمدت تعین شده باید چیزی فراتر از بلند کردن وزنه‌ها بوده و جنبه‌های مختلف حرکتی زیادی را در برگرفته و سلامت اندام‌ها و مفاصل‌تان را هم مدنظر داشته باشد.</p>
+                    
+                    <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        شروع رژیم
+                      </button>
+
+
+                </div>
+                <div class="col-md-6">
+                    <img src="./photo/men.jpg" class="img-fluid shadow rounded-1" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- our team -->
+    <div class="py-4">
+        <main class="container">
+
+            <h2 class="display-5 text-center mt-5">مربیان برجسته ما</h2>
+            <p class="text-center lead text-muted mb-5"> شما میتواید برنامه ورزشی و رژیمی خود را با یکی از مربیان ما انتخاب کنید </p>
+            <div class="row">
+                <div class=" col-lg-3 text-center">
+                    <img src="./photo/m1.jpg"
+                        class="img-fluid  border p-2 w-75 mb-4 rounded-bottom-circle" alt="">
+                    <h2> کاوه محسنی</h2> 
+                    <p>مربی</p>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                                </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                              </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <img src="./photo/m2.jpg"
+                        class="img-fluid border  p-2 w-75 mb-4 rounded-bottom-circle" alt="">
+                    <h2>ارشیا رضایی </h2>
+                    <p>مربی</p>
+                    <ul class="list-unstyled d-flex justify-content-center ">
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                                </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                              </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <img src="./photo/m3.jpg"class="img-fluid border  p-2 w-75 mb-4 rounded-bottom-circle" alt="" >
+                    <h2>سهیل اکبری </h2>
+                    <p>مربی</p>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                                </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                              </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <img src="./photo/m4.jpg"
+                        class="img-fluid border  p-2 w-75 mb-4 rounded-bottom-circle" alt="" >
+                    <h2>میثم قاسمی </h2>
+                    <p>مربی</p>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                                </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#" class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                              </svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+    <!-- frequenliy asked questions -->
+    <div class="py-4" style="background-color: #95ee88;">
+        <section class="container">
+            <h2 class="text-center display-5 mt-5"> سوالات متداول</h2>
+            
+            
+            <div class="accordion pb-4" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      مربی خوب چه ویژگی هایی دارد ؟
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                      <strong>    ۱. درک ورزش
+                        ۲. اشتیاق برای یادگیری
+                        ۳. به اشتراک گذاشتن دانش
+                        ۴. مهارت های انگیزشی
+                        ۵. شناخت ورزشکار
+                        ۶. ارتباط
+                        ۷. مهارت های شنیداری
+                        ۸. انضباط
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      حداکثر کالری مورد نیاز بدن در روز ؟
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>به طور کلی، توصیه می‌شود که زنان باید حدود 2000 کالری در روز مصرف کنند، در حالی که مردان باید حدود 2500 کالری در روز مصرف کنند. با این حال، کالری مصرفی دقیق شما منحصر به فرد خواهد بود، با اطلاعاتی مانند سن، میزان تحرک شما، قد و وزن ایده‌آل که در میزان مصرف شما نقش دارند.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    حداقل در روز چقدر تمرین کنیم؟
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>یک بهانه رایج برای ورزش نکردن مداوم، کمبود وقت است. بسیاری از افراد بر این باورند که اگر نتوانند حداقل ۳۰، ۴۵ یا ۶۰ دقیقه ورزش کنند، تلاش آنها بی نتیجه خواهد بود. اما وقتی صحبت از ورزش می شود، همیشه بیشتر ورزش کردن به معنای بهتربودن نیست.
+
+                        اما برای اینکه یک تمرین موثر باشد چقدر باید طول بکشد؟ برای سلامتی و تندرستی کلی، توصیه می شود حداقل ۱۰ دقیقه به طور پیوسته در هر زمان و در مجموع ۱۵۰ دقیقه در هفته ورزش کنید. با این حال، اهداف شما، انواع تمرین‌هایی که انجام می‌دهید، و میزان سختی که تمرین می‌کنید، همگی می‌توانند بر طول تمرین شما تأثیر بگذارند.
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                        بیشتر از چه مواد غذایی استفاده کنیم ؟
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <strong>برخی از مهم‌ترین مواد غذایی عبارتند از:
+
+                            <br>عدس
+                            <br>اسفناج
+                            <br>کینوا
+                            <br>تخم مرغ
+                            <br>سینه مرغ
+                            <br>گوشت گاو
+                            <br>ماهی سالمون
+                            <br>موز
+                        
+                      </div>
+                    </div>
+                  </div>
+
+
+              </div>    
+        </section>
+    </div>
+
+    
+    <!-- contact -->
+    <div class="py-4">
+        <section class="container">
+            <h2 class="text-center display-5 mt-5 mb-3"> ارتباط با ما  </h2>
+          
+       
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="row g-4">
+                    <div  class="col-md-6">
+                        <div class="bg-primary rounded p-4" class="contact_us">
+                        <svg class="text-success" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                      </svg>
+                      <h2 class="mt-5 ">آدرس</h2>
+                      <div>تهران-فرشته-پلاک3</div>
+                      
+                    </div> 
+                    </div>
+                    <div  class="col-md-6">
+                        <div class="bg-primary rounded p-4" >
+                        <svg class="text-success" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                      <h2 class="mt-5 ">تماس با ما </h2>
+                      <div>021-22564710</div>
+                      
+                    </div> 
+                    </div>
+                    <div  class="col-md-6">
+                        <div class="bg-primary rounded p-4"  >
+                        <svg class="text-success" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                      </svg>
+                      <h2 class="mt-5 ">پست الکترونیکی</h2>
+                      <div>Example@gmail.com</div>
+                      
+                    </div> 
+                    </div>
+                    <div  class="col-md-6">
+                        <div class="bg-primary rounded p-4" >
+                        <svg class="text-success" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                          
+                      </svg>
+                      <h2 class="mt-5 ">ساعت فعالیت</h2>
+                      <div>7 صبح الی 12 شب</div>
+
+                    </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"> 
+                <form class="bg-primary p-4 rounded">
+                    <div class="mb-3">
+                        <label for="contactfullname" class="form-label">نام </label>
+                        <input type="text " class="form-control" id="contactfullname" placeholder="مثلا : محمد اکبری ">
+                      </div>
+                    <div class="mb-3">
+                        <label for="contactemail" class="form-label">ادرس ایمیل </label>
+                        <input type="email" class="form-control" id="contactemail" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="contactcomment" class="form-label">نظرات شما</label>
+                        <textarea class="form-control" id="contactcomment" rows="6"></textarea>
+                      </div>
+                      <button class="btn btn-success" style="margin-bottom: 18px;"> ارسال</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+    <!-- footer -->
+    <div class="py-4 text-white " style="background-color: #179347;">
+        <footer class="container pt-5">
+                <div class="row py-4">
+                    
+                    <div class="col-md-4">
+                        <h3 class=" ps-3">پودر پروتئین</h3>
+                        <ul class="list-unstyled mt-4">
+                            <li>
+                                <a class="text-decoration-none" style="color: #ddd ;" href="#"> پروتئین وی</a>
+                            </li>
+                            <li>
+                                <a  class="text-decoration-none" style="color: #ddd ;"href="#">پودر پروتئین کازئین</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" style="color: #ddd ;" href="#">پروتئین شیر</a>
+                            </li>
+                            <li>
+                                <a  class="text-decoration-none" style="color: #ddd ;"href="#">پروتئین سفیده تخم مرغ (آلبومین)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h3 class=" ps-3">حرکات</h3>
+                        <ul class="list-unstyled mt-4">
+                            <li>
+                                <a class="text-decoration-none" style="color: #ddd;" href="#">حرکات پا</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" style="color: #ddd;" href="#">حرکات شکم</a>
+                            </li>
+                            <li>
+                                <a  class="text-decoration-none" style="color: #ddd;"href="#">حرکات دست </a>
+                            </li>
+                            <li>
+                                <a  class="text-decoration-none" style="color: #ddd;"href="#">حرکات پهلو</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h3 class=" ps-3">انواع رژیم </h3>
+                        <ul class="list-unstyled mt-4">
+                            <li>
+                                <a class="text-decoration-none" style="color: #ddd;" href="#">رژیم مدیترانه‌ ای </a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" style="color: #ddd;" href="#">رژیم دش</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" style="color: #ddd;" href="#">رژیم فلکسترین</a>
+                            </li>
+                            <li>
+                                <a  class="text-decoration-none" style="color: #ddd;"href="#">رژیم اتکینز</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center  "> designed and developed : <a href="#" style="color: black;">mohammad hosein </a></div>
+
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
