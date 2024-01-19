@@ -45,4 +45,13 @@
 .tamrin{
     background-color: #95ee88;
 }
-    
+.diet-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .form-check-input:checked + .form-check-label {
+    color: green;
+    font-weight: bold; 
+  }
+  
